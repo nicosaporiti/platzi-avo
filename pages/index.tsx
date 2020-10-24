@@ -16,7 +16,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <div className="container">
-        <div>Platzi and Next.js!</div>
+        <h1 className="align-center">Productos</h1>
         {productList.map((product) => (
           <>
             <div>{product.name}</div>
