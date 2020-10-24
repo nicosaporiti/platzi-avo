@@ -6,10 +6,7 @@ export default function Navbar() {
     <nav>
       <menu>
         <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/about">
-          <a>About</a>
+          <a>Avo Store</a>
         </Link>
       </menu>
     </nav>

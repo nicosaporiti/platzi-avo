@@ -13,13 +13,18 @@ const HomePage = () => {
       })
   }, [])
   return (
-    <div>
+    <>
       <Navbar />
-      <div>Platzi and Next.js!</div>
-      {productList.map((product) => (
-        <div>{product.image}</div>
-      ))}
-    </div>
+      <div className="container">
+        <div>Platzi and Next.js!</div>
+        {productList.map((product) => (
+          <>
+            <div>{product.name}</div>
+            <img src={product.image} alt={product.name} />
+          </>
+        ))}
+      </div>
+    </>
   )
 }
 
