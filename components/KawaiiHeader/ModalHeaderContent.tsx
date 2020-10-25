@@ -13,7 +13,7 @@ const ModalHeaderContent = () => {
           </Grid.Column>
           <Grid.Column width="11">
             <Header as="h2">Mataste el aguacate</Header>
-            <p>Lo tocaste tanto que lo mataste.</p>
+            <p>Tocaste tanto que lo mataste.</p>
             <p>
               Por otro lado, eres una persona muy curiosa y has descubierto
               esto. :)
